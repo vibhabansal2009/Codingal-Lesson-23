@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Objects</title>
+    </head>
+
+    <body>
+
+        <h1 id="result"></h1>
+        <script>
+
+            var player = {
+
+                name: "MS Dhoni",
+                age: 42,
+                number: 7,
+                played: ["India", "Chennai"]
+            }
+            document.getElementById("result").innerHTML = player.played[1]
+
+            console.log(Object.keys(player))
+            console.log(Object.values(player))
+
+        </script>
+    </body>
+</html>
